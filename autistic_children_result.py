@@ -1,5 +1,5 @@
 import os
-os.environ["GEMINI_API_KEY"] = "AIzaSyD4twwZeMEaSCJHEweHIqO-NwF-QrrDKqU"
+os.environ["GEMINI_API_KEY"] = ""
 
 # =======================
 # === 1. IMPORTS =========
@@ -180,4 +180,5 @@ if __name__ == "__main__":
       cv2_imshow(output_img)
 
     cv2.destroyAllWindows()
+
 # =======================
